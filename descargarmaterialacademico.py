@@ -1,5 +1,8 @@
 import generarReportes
 def descargar_material_academico(estudiante_id, curso_id, nombre_archivo):
+    estudiante_id = estudiante_id
+    curso_id = curso_id
+    nombre_archivo = nombre_archivo
     """
     Simula la descarga de material académico para un estudiante.
 
